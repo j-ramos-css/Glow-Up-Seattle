@@ -1,0 +1,259 @@
+/*RESET*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	outline: none;
+}
+
+/*
+
+	COLOR PALLETTE:
+
+	LIGHT BLUE: #b6fff4
+	NAVY BLUE: #1f4753
+	LIGHT PINK: #f8bfd0
+*/
+
+/*MOBILE STYLES*/
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: whitesmoke;
+}
+
+h1,
+h2,
+h3 {
+
+	font-weight: bold;
+}
+
+section p,
+h2 {
+	color: #1f4753;
+}
+
+p,
+h2,
+h3 {
+	margin: 0 0 1em 0;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+main {
+	padding-top: 110px;
+}
+
+main img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.break {
+	margin: 15px;
+}
+
+.aside-index {
+	color: #1f4753;
+	margin: 0;
+	padding: 30px;
+
+}
+
+section {
+	padding: 0 35px 10px 35px;
+}
+
+footer {
+	clear: both;
+	background-color: #1f4753;
+	font-size: 12px;
+	margin: 0;
+	padding: 14px;
+	color: white;
+	text-align: center;
+	z-index: 2;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 700px) {
+
+	body {
+		font-size: 15px;
+	}
+
+	main {
+		padding-top: 170px;
+	}
+
+	.index-main {
+		padding-top: 137px;
+	}
+
+	.aside-index {
+		margin: 0;
+		padding: 30px;
+
+	}
+
+	h2 {
+		font-size: 4.5em;
+		text-align: center;
+		margin: .3em;
+	}
+
+	h3 {
+		margin-top: 0;
+	}
+
+	ol {
+		margin-bottom: 15px;
+	}
+
+	ol li {
+		margin-left: 8px;
+	}
+
+	ul {
+		margin-bottom: 1em;
+	}
+
+	/* DESKTOP STYLES */
+	@media only screen and (min-width: 1025px) {
+
+		body {
+			font-size: 14px;
+		}
+
+		main {
+			padding-top: 170px;
+		}
+
+		main.index-main {
+			padding-top: 135px;
+		}
+
+		section .index-section {
+			width: 600px;
+			margin-top: 0;
+			margin-bottom: 100px;
+			padding: 30px;
+		}
+
+		aside.aside-index {
+			padding: 40px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	}
